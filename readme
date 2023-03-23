@@ -1,0 +1,11 @@
+npm init: con este se inicializa el package.json
+Se puede usar npm init -y
+-------
+npm i con esto se instala las dependencia
+----
+npm i mssql express morgan cors dotenv, con esto se descargan los archivos necesarios
+npm i nodemon -D para el server live
+
+npm i @babel/core @babel/cli @babel/preset-env @babel/node nodemon -D
+
+   "dev": "nodemon index.js --exec babel-node"
