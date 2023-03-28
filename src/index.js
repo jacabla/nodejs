@@ -1,16 +1,6 @@
-console.log("Hola Jason")
-console.log("Hola Jason Castro Blanco")
+//importamos app 
+import app from "./app";
 
-var a = 50;
-var b = 30;
+app.listen(app.get("port"));
 
-function suma(a,b)  {
- result = a + b
- return result
-
-}
-
-console.log(suma(a,b))
-
-
-/** */
+console.log("escuando en el puertoL: " + app.get("port"));
